@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Raihan Fauzi</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #2563eb;
+            --bg-color: #f3f4f6;
+            --card-bg: #ffffff;
+            --text-main: #1f2937;
+            --text-muted: #6b7280;
+            --wa-green: #25d366;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            line-height: 1.6;
+            padding: 2rem 1rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .profile-card {
+            background: var(--card-bg);
+            max-width: 500px;
+            width: 100%;
+            border-radius: 1.5rem;
+            overflow: hidden;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            text-align: center;
+            padding-bottom: 2rem;
+        }
+
+        .profile-img {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+        }
+
+        .content { padding: 2rem; }
+        h1 { color: var(--primary-color); margin-bottom: 1.5rem; }
+        
+        .info-item {
+            text-align: left;
+            margin-bottom: 1rem;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 0.5rem;
+        }
+
+        .info-item strong {
+            display: block;
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+        }
+
+        .wa-btn {
+            display: block;
+            margin: 1.5rem auto 1rem;
+            padding: 0.8rem 1.5rem;
+            background-color: var(--wa-green);
+            color: white;
+            text-decoration: none;
+            border-radius: 2rem;
+            font-weight: 600;
+            transition: background 0.3s;
+        }
+
+        .wa-btn:hover {
+            background-color: #128c7e;
+        }
+
+        .back-btn {
+            display: inline-block;
+            margin-top: 1rem;
+            text-decoration: none;
+            color: var(--primary-color);
+            font-weight: 600;
+        }
+
+        .back-btn:hover { text-decoration: underline; }
+
+        footer {
+            text-align: center;
+            margin-top: 2rem;
+            color: var(--text-muted);
+            font-size: 0.8rem;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="profile-card">
+        <img src="raihan.png" alt="Raihan Fauzi" class="profile-img">
+        <div class="content">
+            <h1>Raihan Fauzi</h1>
+            
+            <div class="info-item">
+                <strong>Asal</strong>
+                Padalarang CIMAREME CILAME PERMAI
+            </div>
+            <div class="info-item">
+                <strong>Sekolah</strong>
+                MAN 1 Bandung
+            </div>
+            <div class="info-item">
+                <strong>Hobi</strong>
+                Hiking
+            </div>
+
+            <a href="https://wa.me/6285860615237" class="wa-btn" target="_blank">Hubungi Saya via WA</a>
+            
+            <br>
+            <a href="index.html" class="back-btn">&larr; Kembali ke Menu</a>
+            
+            <footer>
+                &copy; 2026 Raihan & Aldi Portfolio.
+            </footer>
+        </div>
+    </div>
+
+</body>
+</html>
